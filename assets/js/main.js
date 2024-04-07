@@ -1,0 +1,11 @@
+alert('hello');
+;(function($){
+    $(document).ready(function(){
+        $(".open_modal").click(function(){
+            $('#modal').plainModal('open');
+        })
+        $('#close-button').click(function(){
+            $('#modal').plainModal('close');
+        });
+    });
+})(jQuery);
